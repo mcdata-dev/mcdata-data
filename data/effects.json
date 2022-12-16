@@ -1,0 +1,1021 @@
+{
+    "updated": {
+        "date": "2022-02-10",
+        "majorVersion": "1.18"
+    },
+    "data": [
+        {
+            "tag": "absorption",
+            "name": "Absorption",
+            "mcId": 22,
+            "desc": {
+                "short": "An effect that pads the health bar with extra hearts.",
+                "long": "Absorption adds 4 (♥♥) additional health points per level to the player, displayed as yellow hearts above the normal health bar. If the player takes damage while under this effect, the absorption health points are depleted first, followed by the standard health points. Absorption health cannot be replenished by natural regeneration or other effects, and vanishes when the effect ends. Negative absorption levels do not appear to have an immediate effect when applied, but give 4 (♥♥) additional health points per level to the player when the status effect ends."
+            },
+            "type": "good",
+            "causes": [
+                {
+                    "tag": "golden_apple",
+                    "desc": null,
+                    "potency": "I",
+                    "length": "2:00",
+                    "note": "When eaten"
+                },
+                {
+                    "tag": "enchanted_golden_apple",
+                    "desc": null,
+                    "potency": "IV",
+                    "length": "2:00",
+                    "note": "When eaten"
+                },
+                {
+                    "tag": "totem_of_undying",
+                    "desc": null,
+                    "potency": "II",
+                    "length": "0:05",
+                    "note": "When activated"
+                }
+            ]
+        },
+        {
+            "tag": "unluck",
+            "name": "Bad Luck",
+            "mcId": 27,
+            "desc": {
+                "short": "An effect that decreases the chance of the player getting good loot.",
+                "long": "Bad Luck decreases the chance of the player getting high-quality loot, contrary to Luck. This makes the loot table entries with a high quality-score less likely, and entries with negative quality more likely."
+            },
+            "type": "bad",
+            "causes": [
+                {
+                    "tag": null,
+                    "desc": null,
+                    "potency": null,
+                    "length": null,
+                    "note": "Cannot be obtained naturally."
+                }
+            ]
+        },
+        {
+            "tag": "bad_omen",
+            "name": "Bad Omen",
+            "mcId": 31,
+            "desc": {
+                "short": "An effect that causes a raid when an afflicted player entres a village.",
+                "long": "Bad Omen's potency determines the chance for illagers to be equipped with enchanted weapons when the player triggers a raid by entering a certain radius around a bed that a villager has claimed. If the raid results in player victory, the Hero of the Village's potency equals the Bad Omen's potency (capped at level 5). Bad Omen levels past the first will also give a single extra raid wave, given the difficulty level. For example with Bad Omen II-V , Easy will have 4 waves instead of 3, Normal will have 6 waves instead of 5, and Hard will have 8 waves instead of 7."
+            },
+            "type": "bad",
+            "causes": [
+                {
+                    "tag": null,
+                    "desc": "Killing a outpost/patrol captain",
+                    "potency": "I - V",
+                    "length": "1:40:00",
+                    "note": "One level is added each time a patrol captain is killed, capping at level V."
+                }
+            ]
+        },
+        {
+            "tag": "blindness",
+            "name": "Blindness",
+            "mcId": 15,
+            "desc": {
+                "short": "An effect that impairs the player's vision.",
+                "long": "Blindness impairs the player's vision as if a thick black fog were surrounding them, with only the immediate area being visible (this means that only a few blocks directly around the player are visible to them). However, the sun and moon can be seen as normal.‌ Additionally, liquids do not fade into the fog perfectly. The effect also prevents the player from sprinting or inflicting critical hits. If combined with Night Vision, the screen appears completely black aside from the sun and moon. In Java Edition 1.16, combining with night visions renders the HUD text black (this also happens on the title screen). In Bedrock Edition, it adjust correctly, it keeps the black fog, and renders the visible area buffed with night vision."
+            },
+            "type": "bad",
+            "causes": [
+                {
+                    "tag": "illusioner",
+                    "desc": null,
+                    "potency": "I",
+                    "length": "0:20",
+                    "note": "Illusioners don't spawn naturally."
+                },
+                {
+                    "tag": "suspicious_stew",
+                    "desc": null,
+                    "potency": "I",
+                    "length": "0:05 - 0:07",
+                    "note": "Must be crafted with Azure Bluet. Found in shipwrecks and can be traded from expert farmer villagers."
+                }
+            ]
+        },
+        {
+            "tag": "conduit_power",
+            "name": "Conduit Power",
+            "mcId": 29,
+            "desc": {
+                "short": "An area-of-effect given by conduits that combines Water Breathing, Nightvision, and Haste (only underwater).",
+                "long": "Players under the effect of Conduit Power receive all of the status effects of Water Breathing, Night Vision, and Haste. This means that their breath meter does not decrease, are able to see underwater, and their underwater mining speed increases. Despite Conduit Power being able to prevent drowning, it does not stack with Water Breathing, which means if the player has both effects, the Water Breathing still ticks down."
+            },
+            "type": "good",
+            "causes": [
+                {
+                    "tag": "Conduit",
+                    "desc": null,
+                    "potency": "I",
+                    "length": "0:13",
+                    "note": "Conduit must be activated | Length gets activated every second as long as the player is near the conduit."
+                }
+            ]
+        },
+        {
+            "tag": "dolphins_grace",
+            "name": "Dolphin's Grace",
+            "mcId": 30,
+            "desc": {
+                "short": "An effect that increases the player's swimming speed when a dolphin is nearby and following a player.",
+                "long": "Dolphin's Grace significantly decreases the amount of \"friction\" from moving through water. This causes the player to swim significantly faster and lose speed at a slower rate, but also makes changing directions slower. Dolphin's Grace on its own allows you to travel 9.8 m/s underwater without Depth Strider, making it faster than a boat. Combining it with Depth Strider, players are able to travel at much higher speeds, adding 8.983 m/s per level. Potentially higher speeds are possible by adding Soul Soil underwater and using Soul Speed-enchanted boots, along with Speed II."
+            },
+            "type": "good",
+            "causes": [
+                {
+                    "tag": "dolphin",
+                    "desc": "",
+                    "potency": null,
+                    "length": "0:05",
+                    "note": "The player must swim near a dolphin to get this effect"
+                }
+            ]
+        },
+        {
+            "tag": "fire_resistance",
+            "name": "Fire Resistance",
+            "mcId": 12,
+            "desc": {
+                "short": "An effect that nullifies most fire-based damage.",
+                "long": "Grants immunity to damage from fire, blaze fireballs, fire charges, magma blocks, and lava, but not ghast fireballs and blaze touch attacks. Negates the fire damage from bows enchanted with Flame and swords enchanted with Fire Aspect, but does not affect the attacks themselves. The fog effect under lava is also mitigated somewhat. Players also see better under lava when they have the Fire Resistance effect."
+            },
+            "type": "good",
+            "causes": [
+                {
+                    "tag": "enchanted_golden_apple",
+                    "desc": null,
+                    "potency": "I",
+                    "length": "5:00",
+                    "note": "When eaten"
+                },
+                {
+                    "tag": null,
+                    "desc": "Potions of Fire Resistance",
+                    "potency": "I",
+                    "length": "0:45 - 8:00",
+                    "note": "Includes all Fire Resistance potions."
+                },
+                {
+                    "tag": null,
+                    "desc": "Arrows of Fire Resistance",
+                    "potency": "I",
+                    "length": "0:22 - 1:00",
+                    "note": "Includes all Fire Resistance arrows."
+                },
+                {
+                    "tag": "totem_of_undying",
+                    "desc": null,
+                    "potency": "I",
+                    "length": "0:40",
+                    "note": null
+                },
+                {
+                    "tag": "suspicious_stew",
+                    "desc": null,
+                    "potency": "I",
+                    "length": "0:04",
+                    "note": "Must be crafted with Allium"
+                }
+            ]
+        },
+        {
+            "tag": "glowing",
+            "name": "Glowing",
+            "mcId": 24,
+            "desc": {
+                "short": "An effect that shows entity positions through blocks.",
+                "long": "The Glowing effect causes entities to glow with an outline that can be seen through blocks and entities. This outline is white by default, but can be set to display other colors if the entity is part of a team. The outline displays around any holes in a mob's texture or model, though only when that part of the model can be seen all the way through. If multiple entities with glowing are near each other, the outlines merge to prevent overlapping."
+            },
+            "type": "bad",
+            "causes": [
+                {
+                    "tag": "spectral_arrow",
+                    "desc": null,
+                    "potency": "I",
+                    "length": "0:10",
+                    "note": "When shot by it."
+                },
+                {
+                    "tag": "bell",
+                    "desc": null,
+                    "potency": "I",
+                    "length": "0:03",
+                    "note": "If an illager is within 32 blocks, hitting a bell applies the effect to any illagers within 32 blocks."
+                }
+            ]
+        },
+        {
+            "tag": "haste",
+            "name": "Haste",
+            "mcId": 3,
+            "desc": {
+                "short": "An effect that increses the mining speed.",
+                "long": "Haste is a status effect that increases attack speed by 10% per level and increases mining speed by 20% per level. Negative levels decrease mining and attack speed, similar to Mining Fatigue. However, the attack speed increases are purely visual."
+            },
+            "type": "good",
+            "causes": [
+                {
+                    "tag": "beacon",
+                    "desc": null,
+                    "potency": "I",
+                    "length": "0:05 - 0:17",
+                    "note": "Beacon set to Haste I. - Replenishes when in range."
+                },
+                {
+                    "tag": "beacon",
+                    "desc": null,
+                    "potency": "II",
+                    "length": "0:17",
+                    "note": "Beacon set to Haste II. - Replenishes when in range. - Requires beacon pyramid level 4."
+                }
+            ]
+        },
+        {
+            "tag": "health_boost",
+            "name": "Health Boost",
+            "mcId": 21,
+            "desc": {
+                "short": "An effect that adds additional hearts to your base health.",
+                "long": "Adds 4 (♥♥) maximum health per level. Unlike Absorption, the added hearts are empty at first, but can be healed through the usual methods (such as natural regeneration and the Regeneration and Instant Health effects)."
+            },
+            "type": "good",
+            "causes": []
+        },
+        {
+            "tag": "hero_of_the_village",
+            "name": "Hero of the Village",
+            "mcId": 32,
+            "desc": {
+                "short": "An effect granted to the player upon defeating a raid.",
+                "long": "Players receive gifts‌ and discounts from villager trades while under the effect. It does not affect the wandering trader's trades."
+            },
+            "type": "good",
+            "causes": [
+                {
+                    "tag": null,
+                    "desc": "All illagers in the final wave of a raid are killed.",
+                    "potency": "I - V",
+                    "length": "40:00",
+                    "note": "The player must have killed at least one raider. The level is the same as the level of Bad Omen the raid was started with."
+                }
+            ]
+        },
+        {
+            "tag": "hunger",
+            "name": "Hunger",
+            "mcId": 17,
+            "desc": {
+                "short": "An effect which causes the hunger bar to deplete faster than normal.",
+                "long": "Hunger increases food exhaustion by 0.005 × level per game tick (removes 1 saturation point every 40:level seconds). It also turns the hunger bar a yellow-green color. Negative levels decrease food exhaustion, although they do not increase saturation or the hunger bar."
+            },
+            "type": "bad",
+            "causes": [
+                {
+                    "tag": "husk",
+                    "desc": null,
+                    "potency": "I",
+                    "length": "00:(7 × regional difficulty)",
+                    "note": "When attacked"
+                },
+                {
+                    "tag": "pufferfish",
+                    "desc": null,
+                    "potency": "III",
+                    "length": "00:15",
+                    "note": "When attacked"
+                },
+                {
+                    "tag": "rotten_flesh",
+                    "desc": null,
+                    "potency": "I",
+                    "length": "00:30",
+                    "note": "80% chance of receiving."
+                },
+                {
+                    "tag": "chicken",
+                    "desc": null,
+                    "potency": "I",
+                    "length": "00:30",
+                    "note": "30% chance of receiving."
+                }
+            ]
+        },
+        {
+            "tag": "instant_damage",
+            "name": "Instant Damage",
+            "mcId": 7,
+            "desc": {
+                "short": "An instant effect that decreases health for living mobs and heals the undead.",
+                "long": "Instant Damage inflicts magic damage of 3 (♥×1.5) × 2^level. Undead mobs (including the wither) are healed as if with Instant Health instead. Death is reported as \"<player> was killed by magic\". When applied using a lingering potion, damage is inflicted every second. As this is magic damage, it can be decreased only via Resistance and Protection."
+            },
+            "type": "bad",
+            "causes": [
+                {
+                    "tag": null,
+                    "desc": "Potions of Harming",
+                    "potency": "I - II",
+                    "length": "0:00 - 0:05",
+                    "note": "Includes all Harming potions."
+                },
+                {
+                    "tag": null,
+                    "desc": "Arrows of Harming",
+                    "potency": "I - II",
+                    "length": "Instant",
+                    "note": "Includes all Harming arrows."
+                }
+            ]
+        },
+        {
+            "tag": "instant_health",
+            "name": "Instant Health",
+            "mcId": 6,
+            "desc": {
+                "short": "An instant effect that increases health for living mobs and damages the undead.",
+                "long": "Instantly heals 2 (♥) × 2^level. Undead mobs (including the wither) are damaged as if with Instant Damage, instead. When applied using a lingering potion, the entity is healed every second. Levels 30–32 (amplifiers 29–31) provide no healing."
+            },
+            "type": "good",
+            "causes": [
+                {
+                    "tag": null,
+                    "desc": "Potions of Healing",
+                    "potency": "I - II",
+                    "length": "0:45 - 8:00",
+                    "note": "Includes all Healing potions."
+                },
+                {
+                    "tag": null,
+                    "desc": "Arrows of Healing",
+                    "potency": "I - II",
+                    "length": "0:00 - 0:05",
+                    "note": "Includes all Healing arrows."
+                }
+            ]
+        },
+        {
+            "tag": "invisibility",
+            "name": "Invisibility",
+            "mcId": 14,
+            "desc": {
+                "short": "An effect that turns entities invisible.",
+                "long": "Invisibility causes the affected mob to disappear from view although it is still present. Certain features of entities are not affected, like armor, held items, arrows stuck in players and any particles emitted."
+            },
+            "type": "good",
+            "causes": [
+                {
+                    "tag": null,
+                    "desc": "Potions of Invisibility",
+                    "potency": "I - II",
+                    "length": "0:45 - 8:00",
+                    "note": "Includes all Invisibility potions."
+                },
+                {
+                    "tag": null,
+                    "desc": "Arrows of Invisibility",
+                    "potency": "I - II",
+                    "length": "0:22 - 1:00",
+                    "note": "Includes all Invisibility arrows."
+                }
+            ]
+        },
+        {
+            "tag": "jump_boost",
+            "name": "Jump Boost",
+            "mcId": 8,
+            "desc": {
+                "short": "An effect that increases the jump height of the player.",
+                "long": "Jump Boost allows the player to jump higher than the normal 1.25 blocks. Each level adds 50% to the jump height. It also reduces fall damage by 1 (♥×0.5) each level. Slimes, shulkers, magma cubes, withers and the ender dragon are unaffected by Jump Boost."
+            },
+            "type": "good",
+            "causes": [
+                {
+                    "tag": null,
+                    "desc": "Potions of Leaping",
+                    "potency": "I - II",
+                    "length": "0:22 - 8:00",
+                    "note": "Includes all Leaping potions."
+                },
+                {
+                    "tag": null,
+                    "desc": "Arrows of Leaping",
+                    "potency": "I - II",
+                    "length": "0:11 - 1:00",
+                    "note": "Includes all Leaping arrows."
+                },
+                {
+                    "tag": "beacon",
+                    "desc": null,
+                    "potency": "I",
+                    "length": "0:05 - 0:17",
+                    "note": "Beacon set to Jump Boost I. - Replenishes when in range."
+                },
+                {
+                    "tag": "beacon",
+                    "desc": null,
+                    "potency": "II",
+                    "length": "0:17",
+                    "note": "Beacon set to Jump Boost II. - Replenishes when in range. - Requires beacon pyramid level 4."
+                },
+                {
+                    "tag": "suspicious_stew",
+                    "desc": null,
+                    "potency": "I",
+                    "length": "0:05 - 0:07",
+                    "note": "Must be crafted with Cornflower. Found in shipwrecks and can be traded from expert farmer villagers."
+                }
+            ]
+        },
+        {
+            "tag": "levitation",
+            "name": "Levitation",
+            "mcId": 25,
+            "desc": {
+                "short": "An effect that causes entities to leviate. Entites shot by shulkers get leviated.",
+                "long": "Levitation causes the affected entity to float upwards at a rate of 0.9×level blocks per second. This does not affect swimming or flying. Negative levels cause the entity to float downwards, overriding the usual falling due to gravity; level 0 (amplifier 255) makes falling, jumping and ascending stairs impossible. When damaged by a projectile or anything, this makes the player go higher in the air on level 255.An affected entity does not take fall damage until the effect wears off, after which the entity falls and takes damage as usual from falling. Levitation has no effect on players riding entities. It also has no effect on entities that are in water or lava."
+            },
+            "type": "bad",
+            "causes": [
+                {
+                    "tag": "shulker",
+                    "desc": "shulker",
+                    "potency": "I",
+                    "length": "0:10",
+                    "note": "9 blocks."
+                }
+            ]
+        },
+        {
+            "tag": "luck",
+            "name": "Luck",
+            "mcId": 26,
+            "desc": {
+                "short": "An effect that makes it more likely to receive better loot from certain loot tables in generated structures.",
+                "long": "Adds 1 × level to attribute \"generic.luck\", making loot table entries with a high quality score more likely, and entries with negative quality less likely."
+            },
+            "type": "good",
+            "causes": [
+                {
+                    "tag": null,
+                    "desc": "Potions of Luck",
+                    "potency": "I",
+                    "length": "1:15 - 5:00",
+                    "note": "Uncraftable."
+                },
+                {
+                    "tag": null,
+                    "desc": "Arrow of Luck",
+                    "potency": "I",
+                    "length": "0:37",
+                    "note": "Uncraftable."
+                }
+            ]
+        },
+        {
+            "tag": "mining_Fatigue",
+            "name": "Mining Fatigue",
+            "mcId": 4,
+            "desc": {
+                "short": "An effect that reduces mining and attack speed, opposite to the Haste effect.",
+                "long": "The effect decreases attack speed by 10% × level, equivalent to the attack speed cooldown attribute‌ decreasing by 0.2 × level. For the in-game default level III, attack speed decreases by 30% (attack speed cooldown attribute decreases by 0.6), and it takes ~370 times longer than usual to break a block with the proper tool for that block."
+            },
+            "type": "bad",
+            "causes": [
+                {
+                    "tag": "elder_guardian",
+                    "desc": null,
+                    "potency": "III",
+                    "length": "5:00",
+                    "note": "Only when the player is not affected. Blocks that break instantly by default are not affected."
+                }
+            ]
+        },
+        {
+            "tag": "nausea",
+            "name": "Nausea",
+            "mcId": 9,
+            "desc": {
+                "short": "An effect which wobbles the player's vision similary to a nether portal.",
+                "long": "Nausea causes the player's vision to warp and wobble, with the distortion ramping up and down at the start and end of the effect. Although Nausea can be given in the normal range of levels, the level has no impact; it does not increase the distortion."
+            },
+            "type": "bad",
+            "causes": [
+                {
+                    "tag": "pufferfish",
+                    "desc": null,
+                    "potency": "I",
+                    "length": "0:15",
+                    "note": "When eaten."
+                }
+            ]
+        },
+        {
+            "tag": "night_vision",
+            "name": "Night Vision",
+            "mcId": 16,
+            "desc": {
+                "short": "An effect that give the player the ability to see in the darkness and underwater.",
+                "long": "Night vision greatly increases the brightness, so the player can easily see in a light level of 0. However, it is not as bright as a light level of 15 (e.g. with the \"Moody\" brightness setting, it is similar to sky light level 12–14 with the \"Bright\" brightness setting), and as such the player can distinguish between light levels."
+            },
+            "type": "good",
+            "causes": [
+                {
+                    "tag": null,
+                    "desc": "Potions of Night Vision",
+                    "potency": "I",
+                    "length": "0:45 - 8:00",
+                    "note": "Includes all Night Vision potions."
+                },
+                {
+                    "tag": null,
+                    "desc": "Arrows of Night Vision",
+                    "potency": "I",
+                    "length": "0:22 - 1:00",
+                    "note": "Includes all Night Vision arrows."
+                },
+                {
+                    "tag": "conduit",
+                    "desc": null,
+                    "potency": "I",
+                    "length": "Indefinite",
+                    "note": "When in rage of an activated conduit."
+                },
+                {
+                    "tag": "suspicious_stew",
+                    "desc": null,
+                    "potency": "I",
+                    "length": "0:05 - 0:10",
+                    "note": "Must be crafted with Poppy. Found in shipwrecks and can be traded from expert farmer villagers."
+                }
+            ]
+        },
+        {
+            "tag": "poison",
+            "name": "Poison",
+            "mcId": 19,
+            "desc": {
+                "short": "An effect that inflicts damage over time reducing the player's health to 1 point (♥×0.5), but not kill the player.",
+                "long": "Poison inflicts damage over time reducing the player's health to 1 point (♥×0.5), but not kill the player. The player hearts turn yellow-green. You can't heal till the effect expires."
+            },
+            "type": "bad",
+            "causes": [
+                {
+                    "tag": null,
+                    "desc": "Potions of Poison",
+                    "potency": "I - II",
+                    "length": "0:05 - 1:30",
+                    "note": "Includes all Poison potions."
+                },
+                {
+                    "tag": null,
+                    "desc": "Arrows of Poison",
+                    "potency": "I",
+                    "length": "0:05 - 0:11",
+                    "note": "Includes all Poison arrows."
+                },
+                {
+                    "tag": "poisonous_potato",
+                    "desc": null,
+                    "potency": "I",
+                    "length": "0:05",
+                    "note": "When eaten."
+                },
+                {
+                    "tag": "pufferfish",
+                    "desc": null,
+                    "potency": "IV (II in 1.17)",
+                    "length": "1:00",
+                    "note": "When eaten."
+                },
+                {
+                    "tag": "spider_eye",
+                    "desc": null,
+                    "potency": "I",
+                    "length": "0:04",
+                    "note": "When eaten."
+                },
+                {
+                    "tag": "cave_spider",
+                    "desc": null,
+                    "potency": "I",
+                    "length": "0:07 - 0.15",
+                    "note": "When attacked."
+                },
+                {
+                    "tag": "pufferfish",
+                    "desc": null,
+                    "potency": "I",
+                    "length": "0:03 - 0:06",
+                    "note": "When attacked."
+                },
+                {
+                    "tag": "bee",
+                    "desc": null,
+                    "potency": "I",
+                    "length": "0:10 - 0:18",
+                    "note": "When attacked."
+                },
+                {
+                    "tag": "suspicious_stew",
+                    "desc": null,
+                    "potency": "I",
+                    "length": "0:05 - 0:10",
+                    "note": "Must be crafted with Lily of the Valley. Found in shipwrecks and can be traded from expert farmer villagers."
+                }
+            ]
+        },
+        {
+            "tag": "regeneration",
+            "name": "Regeneration",
+            "mcId": 10,
+            "desc": {
+                "short": "An effect that restores an entity's health over time.",
+                "long": "Restores health over time from a player or a mob."
+            },
+            "type": "good",
+            "causes": [
+                {
+                    "tag": null,
+                    "desc": "Potions of Regeneration",
+                    "potency": "I - II",
+                    "length": "0:05 - 1:30",
+                    "note": "Includes all Regeneration potions."
+                },
+                {
+                    "tag": null,
+                    "desc": "Arrows of Regeneration",
+                    "potency": "I - II",
+                    "length": "0:05 - 0:11",
+                    "note": "Includes all Regeneration arrows."
+                },
+                {
+                    "tag": "golden_apple",
+                    "desc": null,
+                    "potency": "I",
+                    "length": "0.05",
+                    "note": "When eaten"
+                },
+                {
+                    "tag": "enchanted_golden_apple",
+                    "desc": null,
+                    "potency": "II",
+                    "length": "0:20",
+                    "note": "When eaten"
+                },
+                {
+                    "tag": "totem_of_undying",
+                    "desc": null,
+                    "potency": "II",
+                    "length": "0:45",
+                    "note": "When activated"
+                },
+                {
+                    "tag": "beacon",
+                    "desc": null,
+                    "potency": "I",
+                    "length": "0:17",
+                    "note": "Beacon set to Regeneration. - Replenishes when in range."
+                },
+                {
+                    "tag": "suspicious_stew",
+                    "desc": null,
+                    "potency": "I",
+                    "length": "0:08",
+                    "note": "Must be crafted with Oxeye Daisy. Found in shipwrecks and can be traded from expert farmer villagers."
+                }
+            ]
+        },
+        {
+            "tag": "resistance",
+            "name": "Resistance",
+            "mcId": 11,
+            "desc": {
+                "short": "An effect that reduces incoming damage from almost all sources.",
+                "long": "Resistance reduces incoming damage from all sources except (starvation, the void, and /kill) by 20% × level."
+            },
+            "type": "good",
+            "causes": [
+                {
+                    "tag": null,
+                    "desc": "Potions of Turtle Master",
+                    "potency": "III - IV",
+                    "length": "0:05 - 0:40",
+                    "note": "Includes all Turtle Master potions."
+                },
+                {
+                    "tag": null,
+                    "desc": "Arrows of Turtle Master",
+                    "potency": "III - IV",
+                    "length": "0:02 - 0:05",
+                    "note": "Includes all Turtle Master arrows."
+                },
+                {
+                    "tag": "beacon",
+                    "desc": null,
+                    "potency": "I",
+                    "length": "0:05 - 0:17",
+                    "note": "Beacon set to Resistance I. - Replenishes when in range. - Requires beacon pyramid level 2."
+                },
+                {
+                    "tag": "beacon",
+                    "desc": null,
+                    "potency": "II",
+                    "length": "0:17",
+                    "note": "Beacon set to Resistance II. - Replenishes when in range. - Requires beacon pyramid level 4."
+                },
+                {
+                    "tag": "enchanted_golden_apple",
+                    "desc": null,
+                    "potency": "I",
+                    "length": "5:00",
+                    "note": "When eaten"
+                }
+            ]
+        },
+        {
+            "tag": "saturation",
+            "name": "Saturation",
+            "mcId": 23,
+            "desc": {
+                "short": "An effect that restores hunger and saturation.",
+                "long": "Saturation instantly reduces the need for eating and prevents death by hunger if the player has no food."
+            },
+            "type": "good",
+            "causes": [
+                {
+                    "tag": "suspicious_stew",
+                    "desc": null,
+                    "potency": "I",
+                    "length": "0.00.30",
+                    "note": "Must be crafted with Blue Orchid or Dandelion. Found in shipwrecks and can be traded from expert farmer villagers."
+                }
+            ]
+        },
+        {
+            "tag": "slow_falling",
+            "name": "Slow Falling",
+            "mcId": 28,
+            "desc": {
+                "short": "An effect that causes the affected mob to fall slower and take no fall damage.",
+                "long": "The affected entity falls at a much slower rate than normal, and is immune to fall damage. However, the entity still takes damage from using an enderpearl. In addition, the entity cannot turn farmland into dirt by jumping on it."
+            },
+            "type": "good",
+            "causes": [
+                {
+                    "tag": null,
+                    "desc": "Potions of Slow Falling",
+                    "potency": "I",
+                    "length": "0:22 - 4:00",
+                    "note": "Includes all Slow Falling potions."
+                },
+                {
+                    "tag": null,
+                    "desc": "Arrows of Slow Falling",
+                    "potency": "I",
+                    "length": "0:11 - 0:30",
+                    "note": "Includes all Slow Falling arrows."
+                }
+            ]
+        },
+        {
+            "tag": "slowness",
+            "name": "Slowness",
+            "mcId": 2,
+            "desc": {
+                "short": "An effect that decreases the walking speed of a mob.",
+                "long": "Slowness decreases walking speed by 15% × level and contracts the player's field of view accordingly. Negative levels of Slowness increase walking speed. However, sprinting and jumping is barely affected."
+            },
+            "type": "bad",
+            "causes": [
+                {
+                    "tag": null,
+                    "desc": "Potions of Slowness",
+                    "potency": "I - IV",
+                    "length": "0:05 - 4:00",
+                    "note": "Includes all Slowness potions."
+                },
+                {
+                    "tag": null,
+                    "desc": "Arrows of Slowness",
+                    "potency": "I - IV",
+                    "length": "0:02 - 0:11",
+                    "note": "Includes all Slowness arrows."
+                },
+                {
+                    "tag": null,
+                    "desc": "Potions of Turtle Master",
+                    "potency": "IV - VI",
+                    "length": "0:05 - 0:40",
+                    "note": "Includes all Turtle Master potions."
+                },
+                {
+                    "tag": null,
+                    "desc": "Arrows of Turtle Master",
+                    "potency": "IV - VI",
+                    "length": "0:02 - 0:05",
+                    "note": "Includes all Turtle Master arrows."
+                }
+            ]
+        },
+        {
+            "tag": "speed",
+            "name": "Speed",
+            "mcId": 1,
+            "desc": {
+                "short": "An effect that increases the walking speed from an entity.",
+                "long": "Speed increases an entity's walking speed by 20% × level. It expands a player's field of view (FOV) accordingly. Negative levels decrease speed."
+            },
+            "type": "good",
+            "causes": [
+                {
+                    "tag": null,
+                    "desc": "Potions of Swiftness",
+                    "potency": "I - II",
+                    "length": "0:22 - 8:00",
+                    "note": "Includes all Swiftness potions."
+                },
+                {
+                    "tag": null,
+                    "desc": "Arrows of Swiftness",
+                    "potency": "I - II",
+                    "length": "0:11 - 1:00",
+                    "note": "Includes all Swiftness arrows."
+                },
+                {
+                    "tag": "beacon",
+                    "desc": null,
+                    "potency": "I",
+                    "length": "0:05 - 0:17",
+                    "note": "Beacon set to Speed I. - Replenishes when in range."
+                },
+                {
+                    "tag": "beacon",
+                    "desc": null,
+                    "potency": "II",
+                    "length": "0:17",
+                    "note": "Beacon set to Speed II. - Replenishes when in range. - Requires beacon pyramid level 4."
+                }
+            ]
+        },
+        {
+            "tag": "strength",
+            "name": "Strength",
+            "mcId": 5,
+            "desc": {
+                "short": "An effect that increases attack power.",
+                "long": "Increases melee damage by 3 (♥×0.5) × level. Negative levels decrease melee damage, with attacks being ignored entirely if damage would be 0 or lower."
+            },
+            "type": "good",
+            "causes": [
+                {
+                    "tag": null,
+                    "desc": "Potions of Strenth",
+                    "potency": "I - II",
+                    "length": "0:22 - 8:00",
+                    "note": "Includes all Strenth potions."
+                },
+                {
+                    "tag": null,
+                    "desc": "Arrows of Strenth",
+                    "potency": "I - II",
+                    "length": "0:11 - 1:00",
+                    "note": "Includes all Strenth arrows."
+                },
+                {
+                    "tag": "beacon",
+                    "desc": null,
+                    "potency": "I",
+                    "length": "0:05 - 0:17",
+                    "note": "Beacon set to Strength I. - Replenishes when in range. - Requires beacon pyramid level 3"
+                },
+                {
+                    "tag": "beacon",
+                    "desc": null,
+                    "potency": "II",
+                    "length": "0:17",
+                    "note": "Beacon set to Strength II. - Replenishes when in range. - Requires beacon pyramid level 4."
+                }
+            ]
+        },
+        {
+            "tag": "water_breathing",
+            "name": "Water Breathing",
+            "mcId": 13,
+            "desc": {
+                "short": "An effect that allows a player to breath underwater.",
+                "long": "Water Breathing prevents or delays drowning by allowing the player to breath underwater."
+            },
+            "type": "good",
+            "causes": [
+                {
+                    "tag": null,
+                    "desc": "Potions of Water Breathing",
+                    "potency": "I",
+                    "length": "0:45 - 8:00",
+                    "note": "Includes all Water Breathing potions."
+                },
+                {
+                    "tag": null,
+                    "desc": "Arrows of Water Breathing",
+                    "potency": "I",
+                    "length": "0:22 - 1:00",
+                    "note": "Includes all Water Breathing arrows."
+                },
+                {
+                    "tag": null,
+                    "desc": "turtle_helmet",
+                    "potency": "I",
+                    "length": "0:10",
+                    "note": "Only counts down underwater. - Instantly replenishes in air."
+                }
+            ]
+        },
+        {
+            "tag": "weakness",
+            "name": "Weakness",
+            "mcId": 18,
+            "desc": {
+                "short": "An effect that decreases attack power.",
+                "long": "Melee damage inflicted by the affected entity is reduced by 4 (♥♥) × level. Negative levels increase melee damage dealt. This effect is also used to cure zombie villagers, preceding the golden apple."
+            },
+            "type": "bad",
+            "causes": [
+                {
+                    "tag": null,
+                    "desc": "Potions of Weakness",
+                    "potency": "I",
+                    "length": "0:22 - 4:00",
+                    "note": "Includes all Weakness potions."
+                },
+                {
+                    "tag": null,
+                    "desc": "Arrows of Weakness",
+                    "potency": "I",
+                    "length": "0:11 - 0:30",
+                    "note": "Includes all Weakness arrows."
+                },
+                {
+                    "tag": "suspicious_stew",
+                    "desc": null,
+                    "potency": "I",
+                    "length": "0:06 - 0:09",
+                    "note": "Must be crafted with Tulip. Found in shipwrecks and can be traded from expert farmer villagers."
+                }
+            ]
+        },
+        {
+            "tag": "wither",
+            "name": "Wither",
+            "mcId": 20,
+            "desc": {
+                "short": "An effect that inflicts damage over time.",
+                "long": "Wither is a effect that inflicts damage over time. Unlike Poison, it can effect undead mobs and kill it. The Player's hearts turn black, making it more difficult, but still possible to see their health."
+            },
+            "type": "bad",
+            "causes": [
+                {
+                    "tag": null,
+                    "desc": "Potions of Decay",
+                    "potency": "I",
+                    "length": "0:22 - 4:00",
+                    "note": "Includes all Decay potions. - Not craftable."
+                },
+                {
+                    "tag": null,
+                    "desc": "Arrow of Decay",
+                    "potency": "I",
+                    "length": "0:05",
+                    "note": "Not craftable."
+                },
+                {
+                    "tag": "wither",
+                    "desc": null,
+                    "potency": "II",
+                    "length": "0:10 - 0:40",
+                    "note": "When directly hit."
+                },
+                {
+                    "tag": "wither_skeleton",
+                    "desc": null,
+                    "potency": "I",
+                    "length": "0:10",
+                    "note": "When attacked."
+                },
+                {
+                    "tag": "suspicious_stew",
+                    "desc": null,
+                    "potency": "I",
+                    "length": "0:08",
+                    "note": "Must be crafted with Wither Rose."
+                }
+            ]
+        }
+    ]
+}
