@@ -1,0 +1,11 @@
+{
+    "updated": {
+        "date": "YYYY-MM-DD",
+        "majorVersion": "1.xx"
+    },
+    "data": [
+        {
+            "example": "Example"
+        }
+    ]
+}
