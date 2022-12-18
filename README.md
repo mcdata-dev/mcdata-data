@@ -12,9 +12,11 @@
 |------------|-------------------------------------------------------------------|------------|-------------------|
 | Alphabet   | Characters from the Latin & Galactic (enchantment table) alphabet | 🟢         |                   |
 | Armor      | Minecraft armor, head, chest, leggings & boots                    | 🟡         |                   |
+| Biomes     | The Minecraft biomes                                              | 🟢         |                   |
 | Colors     | The 16 colors                                                     | 🟢         |                   |
 | Dimensions | The different dimensions                                          | 🟡         |                   |
 | Effects    | All Minecraft effects                                             | 🟠         | Last update: 1.18 |
+| Games      | Different Minecraft games                                         | 🟢         |                   |
 | Versions   | The non-pre-release versions                                      | 🟢         |                   |
 
 # Contributing
