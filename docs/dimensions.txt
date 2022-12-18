@@ -4,7 +4,7 @@ updated
     date:                       Last time updated, using the ISO 8601 format (YYYY-MM-DD)
     majorVersion:               The major Minecraft version at the last update 
 data
-    tag:                        The tag of the armor dimension, lowercase and joined with underscores
+    tag:                        The tag of the dimension, lowercase and joined with underscores
     name:                       The name of the dimension
     coordinateScale:            The multiplier applied to the coordinates when leaving the dimension
     ambientLight:               The default amount of light
