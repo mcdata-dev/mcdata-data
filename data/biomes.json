@@ -1,0 +1,835 @@
+{
+    "updated": {
+        "date": "2022-12-18",
+        "majorVersion": "1.19"
+    },
+    "data": [
+        {
+            "tag": "the_void",
+            "name": "The Void",
+            "category": "none",
+            "rain": 0.5,
+            "precipitation": "none",
+            "temperature": 0.5,
+            "dimension": "overworld",
+            "rarity": "none",
+            "structures": [
+                "stone_platform"
+            ]
+        },
+        {
+            "tag": "plains",
+            "name": "Plains",
+            "category": "plains",
+            "rain": 0.4,
+            "precipitation": "rain",
+            "temperature": 0.8,
+            "dimension": "overworld",
+            "rarity": "common",
+            "structures": [
+                "village",
+                "pillager_outpost"
+            ]
+        },
+        {
+            "tag": "sunflower_plains",
+            "name": "Sunflower Plains",
+            "category": "plains",
+            "rain": 0.4,
+            "precipitation": "rain",
+            "temperature": 0.8,
+            "dimension": "overworld",
+            "rarity": "uncommon",
+            "structures": []
+        },
+        {
+            "tag": "snowy_plains",
+            "name": "Snowy Plains",
+            "category": "plains",
+            "rain": 0.5,
+            "precipitation": "snow",
+            "temperature": 0,
+            "dimension": "overworld",
+            "rarity": "uncommon",
+            "structures": [
+                "igloo",
+                "village",
+                "pillager_outpost"
+            ]
+        },
+        {
+            "tag": "ice_spikes",
+            "name": "Ice Spikes",
+            "category": "ice",
+            "rain": 0.5,
+            "precipitation": "snow",
+            "temperature": 0,
+            "dimension": "overworld",
+            "rarity": "rare",
+            "structures": [
+                "ice_spike"
+            ]
+        },
+        {
+            "tag": "desert",
+            "name": "Desert",
+            "category": "desert",
+            "rain": 0,
+            "precipitation": "none",
+            "temperature": 2,
+            "dimension": "overworld",
+            "rarity": "common",
+            "structures": [
+                "desert_temple",
+                "village",
+                "desert_well",
+                "fossil",
+                "pillager_outpost"
+            ]
+        },
+        {
+            "tag": "swamp",
+            "name": "Swamp",
+            "category": "swamp",
+            "rain": 0.9,
+            "precipitation": "rain",
+            "temperature": 0.8,
+            "dimension": "overworld",
+            "rarity": "common",
+            "structures": [
+                "swamp_hut",
+                "fossil"
+            ]
+        },
+        {
+            "tag": "mangrove_swamp",
+            "name": "Mangrove Swamp",
+            "category": "forest",
+            "rain": 0.9,
+            "precipitation": "rain",
+            "temperature": 0.8,
+            "dimension": "overworld",
+            "rarity": "uncommon",
+            "structures": [
+                "swamp_hut",
+                "fossil"
+            ]
+        },
+        {
+            "tag": "forest",
+            "name": "Forest",
+            "category": "forest",
+            "rain": 0.8,
+            "precipitation": "rain",
+            "temperature": 0.7,
+            "dimension": "overworld",
+            "rarity": "common",
+            "structures": []
+        },
+        {
+            "tag": "flower_forest",
+            "name": "Flower Forest",
+            "category": "forest",
+            "rain": 0.8,
+            "precipitation": "rain",
+            "temperature": 0.7,
+            "dimension": "overworld",
+            "rarity": "uncommon",
+            "structures": []
+        },
+        {
+            "tag": "birch_forest",
+            "name": "Birch Forest",
+            "category": "forest",
+            "rain": 0.6,
+            "precipitation": "rain",
+            "temperature": 0.6,
+            "dimension": "overworld",
+            "rarity": "common",
+            "structures": []
+        },
+        {
+            "tag": "dark_forest",
+            "name": "Dark Forest",
+            "category": "forest",
+            "rain": 0.8,
+            "precipitation": "rain",
+            "temperature": 0.7,
+            "dimension": "overworld",
+            "rarity": "common",
+            "structures": [
+                "woodland_mansion"
+            ]
+        },
+        {
+            "tag": "old_growth_birch_forest",
+            "name": "Old Growth Birch Forest",
+            "category": "forest",
+            "rain": 0.6,
+            "precipitation": "rain",
+            "temperature": 0.6,
+            "dimension": "overworld",
+            "rarity": "uncommon",
+            "structures": []
+        },
+        {
+            "tag": "old_growth_pine_taiga",
+            "name": "Old Growth Pine Taiga",
+            "category": "taiga",
+            "rain": 0.8,
+            "precipitation": "rain",
+            "temperature": 0.3,
+            "dimension": "overworld",
+            "rarity": "uncommon",
+            "structures": []
+        },
+        {
+            "tag": "old_growth_spruce_taiga",
+            "name": "Old Growth Spruce Taiga",
+            "category": "taiga",
+            "rain": 0.8,
+            "precipitation": "rain",
+            "temperature": 0.25,
+            "dimension": "overworld",
+            "rarity": "uncommon",
+            "structures": []
+        },
+        {
+            "tag": "taiga",
+            "name": "Taiga",
+            "category": "taiga",
+            "rain": 0.8,
+            "precipitation": "rain",
+            "temperature": 0.25,
+            "dimension": "overworld",
+            "rarity": "common",
+            "structures": [
+                "village",
+                "pillager_outpost"
+            ]
+        },
+        {
+            "tag": "snowy_taiga",
+            "name": "Snowy Taiga",
+            "category": "taiga",
+            "rain": 0.4,
+            "precipitation": "snow",
+            "temperature": -0.5,
+            "dimension": "overworld",
+            "rarity": "uncommon",
+            "structures": [
+                "igloo",
+                "pillager_outpost"
+            ]
+        },
+        {
+            "tag": "savanna",
+            "name": "Savanna",
+            "category": "savanna",
+            "rain": 0,
+            "precipitation": "none",
+            "temperature": 2,
+            "dimension": "overworld",
+            "rarity": "common",
+            "structures": [
+                "village",
+                "pillager_outpost"
+            ]
+        },
+        {
+            "tag": "savanna_plateau",
+            "name": "Savanna Plateau",
+            "category": "savanna",
+            "rain": 0,
+            "precipitation": "none",
+            "temperature": 2,
+            "dimension": "overworld",
+            "rarity": "common",
+            "structures": []
+        },
+        {
+            "tag": "windswept_hills",
+            "name": "Windswept Hills",
+            "category": "extreme_hills",
+            "rain": 0.3,
+            "precipitation": "rain",
+            "temperature": 0.2,
+            "dimension": "overworld",
+            "rarity": "uncommon",
+            "structures": []
+        },
+        {
+            "tag": "windswept_gravelly_hills",
+            "name": "Windswept Gravelly Hills",
+            "category": "extreme_hills",
+            "rain": 0.3,
+            "precipitation": "rain",
+            "temperature": 0.2,
+            "dimension": "overworld",
+            "rarity": "uncommon",
+            "structures": []
+        },
+        {
+            "tag": "windswept_forest",
+            "name": "Windswept Forest",
+            "category": "forest",
+            "rain": 0.3,
+            "precipitation": "rain",
+            "temperature": 0.2,
+            "dimension": "overworld",
+            "rarity": "uncommon",
+            "structures": []
+        },
+        {
+            "tag": "windswept_savanna",
+            "name": "Windswept Savanna",
+            "category": "savanna",
+            "rain": 0,
+            "precipitation": "none",
+            "temperature": 1.1,
+            "dimension": "overworld",
+            "rarity": "rare",
+            "structures": []
+        },
+        {
+            "tag": "jungle",
+            "name": "Jungle",
+            "category": "jungle",
+            "rain": 0.9,
+            "precipitation": "rain",
+            "temperature": 0.95,
+            "dimension": "overworld",
+            "rarity": "uncommon",
+            "structures": [
+                "jungle_temple"
+            ]
+        },
+        {
+            "tag": "sparse_jungle",
+            "name": "Sparse Jungle",
+            "category": "jungle",
+            "rain": 0.8,
+            "precipitation": "rain",
+            "temperature": 0.95,
+            "dimension": "overworld",
+            "rarity": "common",
+            "structures": []
+        },
+        {
+            "tag": "bamboo_jungle",
+            "name": "Bamboo Jungle",
+            "category": "jungle",
+            "rain": 0.9,
+            "precipitation": "rain",
+            "temperature": 0.95,
+            "dimension": "overworld",
+            "rarity": "rare",
+            "structures": [
+                "jungle_temple"
+            ]
+        },
+        {
+            "tag": "badlands",
+            "name": "Badlands",
+            "category": "mesa",
+            "rain": 0,
+            "precipitation": "none",
+            "temperature": 2,
+            "dimension": "overworld",
+            "rarity": "uncommon",
+            "structures": [
+                "mineshaft"
+            ]
+        },
+        {
+            "tag": "eroded_badlands",
+            "name": "Eroded Badlands",
+            "category": "mesa",
+            "rain": 0,
+            "precipitation": "none",
+            "temperature": 2,
+            "dimension": "overworld",
+            "rarity": "rare",
+            "structures": [
+                "mineshaft"
+            ]
+        },
+        {
+            "tag": "wooded_badlands",
+            "name": "Wooded Badlands",
+            "category": "mesa",
+            "rain": 0,
+            "precipitation": "none",
+            "temperature": 2,
+            "dimension": "overworld",
+            "rarity": "uncommon",
+            "structures": [
+                "mineshaft"
+            ]
+        },
+        {
+            "tag": "meadow",
+            "name": "Meadow",
+            "category": "mountain",
+            "rain": 0.8,
+            "precipitation": "rain",
+            "temperature": 0.5,
+            "dimension": "overworld",
+            "rarity": "uncommon",
+            "structures": [
+                "pillager_outpost",
+                "village"
+            ]
+        },
+        {
+            "tag": "grove",
+            "name": "Grove",
+            "category": "forest",
+            "rain": 0.8,
+            "precipitation": "snow",
+            "temperature": -0.2,
+            "dimension": "overworld",
+            "rarity": "uncommon",
+            "structures": [
+                "pillager_outpost"
+            ]
+        },
+        {
+            "tag": "snowy_slopes",
+            "name": "Snowy Slopes",
+            "category": "mountain",
+            "rain": 0.9,
+            "precipitation": "snow",
+            "temperature": -0.3,
+            "dimension": "overworld",
+            "rarity": "uncommon",
+            "structures": [
+                "pillager_outpost",
+                "igloo"
+            ]
+        },
+        {
+            "tag": "frozen_peaks",
+            "name": "Frozen Peaks",
+            "category": "ice",
+            "rain": 0.9,
+            "precipitation": "snow",
+            "temperature": -0.7,
+            "dimension": "overworld",
+            "rarity": "uncommon",
+            "structures": [
+                "pillager_outpost"
+            ]
+        },
+        {
+            "tag": "jagged_peaks",
+            "name": "Jagged Peaks",
+            "category": "mountain",
+            "rain": 0.9,
+            "precipitation": "snow",
+            "temperature": -0.7,
+            "dimension": "overworld",
+            "rarity": "uncommon",
+            "structures": [
+                "pillager_outpost"
+            ]
+        },
+        {
+            "tag": "stony_peaks",
+            "name": "Stony Peaks",
+            "category": "mountain",
+            "rain": 0.3,
+            "precipitation": "rain",
+            "temperature": 1,
+            "dimension": "overworld",
+            "rarity": "uncommon",
+            "structures": [
+                "pillager_outpost"
+            ]
+        },
+        {
+            "tag": "river",
+            "name": "River",
+            "category": "river",
+            "rain": 0.5,
+            "precipitation": "rain",
+            "temperature": 0.5,
+            "dimension": "overworld",
+            "rarity": "common",
+            "structures": []
+        },
+        {
+            "tag": "frozen_river",
+            "name": "Frozen River",
+            "category": "ice",
+            "rain": 0.5,
+            "precipitation": "snow",
+            "temperature": 0,
+            "dimension": "overworld",
+            "rarity": "uncommon",
+            "structures": []
+        },
+        {
+            "tag": "beach",
+            "name": "Beach",
+            "category": "beach",
+            "rain": 0.4,
+            "precipitation": "rain",
+            "temperature": 0.8,
+            "dimension": "overworld",
+            "rarity": "common",
+            "structures": [
+                "burried_tresaure",
+                "shipwreck"
+            ]
+        },
+        {
+            "tag": "snowy_beach",
+            "name": "Snowy Beach",
+            "category": "beach",
+            "rain": 0.3,
+            "precipitation": "snow",
+            "temperature": 0.05,
+            "dimension": "overworld",
+            "rarity": "uncommon",
+            "structures": [
+                "shipwreck",
+                "burried_tresaure"
+            ]
+        },
+        {
+            "tag": "stony_shore",
+            "name": "Stony Shore",
+            "category": "beach",
+            "rain": 0.3,
+            "precipitation": "rain",
+            "temperature": 0.2,
+            "dimension": "overworld",
+            "rarity": "uncommon",
+            "structures": []
+        },
+        {
+            "tag": "warm_ocean",
+            "name": "Warm Ocean",
+            "category": "ocean",
+            "rain": 0.5,
+            "precipitation": "rain",
+            "temperature": 0.5,
+            "dimension": "overworld",
+            "rarity": "uncommon",
+            "structures": [
+                "coral_reef",
+                "shipwreck",
+                "underwater_ruins"
+            ]
+        },
+        {
+            "tag": "lukewarm_ocean",
+            "name": "Lukewarm Ocean",
+            "category": "ocean",
+            "rain": 0.5,
+            "precipitation": "rain",
+            "temperature": 0.5,
+            "dimension": "overworld",
+            "rarity": "common",
+            "structures": [
+                "shipwreck",
+                "underwater_ruins"
+            ]
+        },
+        {
+            "tag": "deep_lukewarm_ocean",
+            "name": "Deep Lukewarm Ocean",
+            "category": "ocean",
+            "rain": 0.5,
+            "precipitation": "rain",
+            "temperature": 0.5,
+            "dimension": "overworld",
+            "rarity": "common",
+            "structures": [
+                "ocean_monument",
+                "shipwreck",
+                "underwater_ruins"
+            ]
+        },
+        {
+            "tag": "ocean",
+            "name": "Ocean",
+            "category": "ocean",
+            "rain": 0.5,
+            "precipitation": "rain",
+            "temperature": 0.5,
+            "dimension": "overworld",
+            "rarity": "common",
+            "structures": [
+                "ocean_monument",
+                "shipwreck",
+                "underwater_ruins"
+            ]
+        },
+        {
+            "tag": "deep_ocean",
+            "name": "Deep Ocean",
+            "category": "ocean",
+            "rain": 0.5,
+            "precipitation": "rain",
+            "temperature": 0.5,
+            "dimension": "overworld",
+            "rarity": "common",
+            "structures": [
+                "ocean_monument",
+                "shipwreck",
+                "underwater_ruins"
+            ]
+        },
+        {
+            "tag": "cold_ocean",
+            "name": "Cold Ocean",
+            "category": "ocean",
+            "rain": 0.5,
+            "precipitation": "rain",
+            "temperature": 0.5,
+            "dimension": "overworld",
+            "rarity": "common",
+            "structures": [
+                "shipwreck",
+                "underwater_ruins"
+            ]
+        },
+        {
+            "tag": "deep_cold_ocean",
+            "name": "Deep Cold Ocean",
+            "category": "ocean",
+            "rain": 0.5,
+            "precipitation": "rain",
+            "temperature": 0.5,
+            "dimension": "overworld",
+            "rarity": "common",
+            "structures": [
+                "ocean_monument",
+                "shipwreck",
+                "underwater_ruins"
+            ]
+        },
+        {
+            "tag": "frozen_ocean",
+            "name": "Frozen Ocean",
+            "category": "ocean",
+            "rain": 0.5,
+            "precipitation": "snow",
+            "temperature": 0,
+            "dimension": "overworld",
+            "rarity": "uncommon",
+            "structures": [
+                "shipwreck",
+                "underwater_ruins"
+            ]
+        },
+        {
+            "tag": "deep_frozen_ocean",
+            "name": "Deep Frozen Ocean",
+            "category": "ocean",
+            "rain": 0.5,
+            "precipitation": "rain",
+            "temperature": 0.5,
+            "dimension": "overworld",
+            "rarity": "uncommon",
+            "structures": [
+                "ocean_monument",
+                "iceberg",
+                "shipwreck",
+                "underwater_ruins"
+            ]
+        },
+        {
+            "tag": "mushroom_fields",
+            "name": "Mushroom Fields",
+            "category": "mushroom",
+            "rain": 1,
+            "precipitation": "rain",
+            "temperature": 0.9,
+            "dimension": "overworld",
+            "rarity": "very_rare",
+            "structures": []
+        },
+        {
+            "tag": "dripstone_caves",
+            "name": "Dripstone Caves",
+            "category": "underground",
+            "rain": 0.4,
+            "precipitation": "rain",
+            "temperature": 0.8,
+            "dimension": "overworld",
+            "rarity": "common",
+            "structures": []
+        },
+        {
+            "tag": "lush_caves",
+            "name": "Lush Caves",
+            "category": "underground",
+            "rain": 0.5,
+            "precipitation": "rain",
+            "temperature": 0.5,
+            "dimension": "overworld",
+            "rarity": "rare",
+            "structures": []
+        },
+        {
+            "tag": "deep_dark",
+            "name": "Deep Dark",
+            "category": "underground",
+            "rain": 0.4,
+            "precipitation": "rain",
+            "temperature": 0.8,
+            "dimension": "overworld",
+            "rarity": "rare",
+            "structures": [
+                "ancient_city"
+            ]
+        },
+        {
+            "tag": "nether_wastes",
+            "name": "Nether Wastes",
+            "category": "nether",
+            "rain": 0,
+            "precipitation": "none",
+            "temperature": 2,
+            "dimension": "nether",
+            "rarity": "common",
+            "structures": [
+                "bastion_remnants",
+                "nether_fortress",
+                "ruined_portal"
+            ]
+        },
+        {
+            "tag": "warped_forest",
+            "name": "Warped Forest",
+            "category": "nether",
+            "rain": 0,
+            "precipitation": "none",
+            "temperature": 2,
+            "dimension": "nether",
+            "rarity": "uncommon",
+            "structures": [
+                "bastion_remnants",
+                "ruined_portal",
+                "nether_fortress"
+            ]
+        },
+        {
+            "tag": "crimson_forest",
+            "name": "Crimson Forest",
+            "category": "nether",
+            "rain": 0,
+            "precipitation": "none",
+            "temperature": 2,
+            "dimension": "nether",
+            "rarity": "common",
+            "structures": [
+                "bastion_remnants",
+                "ruined_portal",
+                "nether_fortress"
+            ]
+        },
+        {
+            "tag": "soul_sand_valley",
+            "name": "Soul Sand Valley",
+            "category": "nether",
+            "rain": 0,
+            "precipitation": "none",
+            "temperature": 2,
+            "dimension": "nether",
+            "rarity": "uncommon",
+            "structures": [
+                "basalt_pillar",
+                "nether_fortress",
+                "fossil",
+                "bastion_remnants",
+                "ruined_portal"
+            ]
+        },
+        {
+            "tag": "basalt_deltas",
+            "name": "Basalt Deltas",
+            "category": "nether",
+            "rain": 0,
+            "precipitation": "none",
+            "temperature": 2,
+            "dimension": "nether",
+            "rarity": "uncommon",
+            "structures": [
+                "nether_fortress",
+                "basalt_pillar",
+                "ruined_portal"
+            ]
+        },
+        {
+            "tag": "the_end",
+            "name": "The End",
+            "category": "the_end",
+            "rain": 0.5,
+            "precipitation": "none",
+            "temperature": 0.5,
+            "dimension": "the_end",
+            "rarity": "common",
+            "structures": [
+                "end_city"
+            ]
+        },
+        {
+            "tag": "end_highlands",
+            "name": "End Highlands",
+            "category": "the_end",
+            "rain": 0.5,
+            "precipitation": "none",
+            "temperature": 0.5,
+            "dimension": "the_end",
+            "rarity": "common",
+            "structures": [
+                "end_city",
+                "end_gateway"
+            ]
+        },
+        {
+            "tag": "end_midlands",
+            "name": "End Midlands",
+            "category": "the_end",
+            "rain": 0.5,
+            "precipitation": "none",
+            "temperature": 0.5,
+            "dimension": "the_end",
+            "rarity": "common",
+            "structures": [
+                "end_city",
+                "end_gateway"
+            ]
+        },
+        {
+            "tag": "small_end_islands",
+            "name": "Small End Islands",
+            "category": "the_end",
+            "rain": 0.5,
+            "precipitation": "none",
+            "temperature": 0.5,
+            "dimension": "the_end",
+            "rarity": "common",
+            "structures": [
+                "end_gateway"
+            ]
+        },
+        {
+            "tag": "end_barrens",
+            "name": "End Barrens",
+            "category": "the_end",
+            "rain": 0.5,
+            "precipitation": "none",
+            "temperature": 0.5,
+            "dimension": "the_end",
+            "rarity": "common",
+            "structures": [
+                "end_gateway"
+            ]
+        }
+    ]
+}
