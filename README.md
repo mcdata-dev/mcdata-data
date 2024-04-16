@@ -15,7 +15,11 @@
         alt="npm downloads" 
       />
     </a>
-		<a href="https://github.com/discordjs/discord.js/actions"><img src="https://github.com/discordjs/discord.js/actions/workflows/test.yml/badge.svg" alt="Tests status" /></a>
-		<a href="https://codecov.io/gh/discordjs/discord.js" ><img src="https://codecov.io/gh/discordjs/discord.js/branch/main/graph/badge.svg?precision=2" alt="Code coverage" /></a>
+		<a href="https://github.com/mcdata-dev/data/actions">
+      <img src="https://github.com/mcdata-dev/data/actions/workflows/test.yml/badge.svg" alt="Tests status" />
+    </a>
+    <a href="https://codecov.io/gh/mcdata-dev/mcdata-data">
+      <img src="https://codecov.io/gh/mcdata-dev/mcdata-data/graph/badge.svg?token=HMAP40BDEZ" />
+    </a>
 	</p>
 </div>
