@@ -20,7 +20,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: install-dependencies
     steps:
-      - namne: Checkout repository
+      - name: Checkout repository
         uses: actions/checkout@v3
       - name: Run test files
         run: yarn test
