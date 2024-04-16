@@ -1,5 +1,5 @@
 import { describe, test, expect } from 'vitest';
-import { alphabet } from '../src/alphabet';
+import { alphabet } from '../src';
 
 describe('Test alphabet datastructure', (): void => {
   test('Test metadata', (): void => {

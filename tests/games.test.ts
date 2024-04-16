@@ -1,5 +1,5 @@
 import { describe, test, expect, expectTypeOf } from 'vitest';
-import { games } from '../src/games';
+import { games } from '../src';
 
 describe('Test game datastructure', (): void => {
   test('Test metadata', (): void => {

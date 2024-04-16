@@ -6,3 +6,4 @@ export * from './colors';
 export * from './dimensions';
 export * from './effects';
 export * from './types';
+export * from './games';

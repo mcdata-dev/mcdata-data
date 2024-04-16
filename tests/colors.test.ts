@@ -1,5 +1,5 @@
 import { describe, test, expect } from 'vitest';
-import { colors } from '../src/colors';
+import { colors } from '../src';
 
 describe('Test color datastructure', (): void => {
   test('Test metadata', (): void => {

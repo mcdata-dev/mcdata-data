@@ -1,5 +1,5 @@
 import { describe, test, expect } from 'vitest';
-import { armor } from '../src/armor';
+import { armor } from '../src';
 
 describe('Test armor datastructure', (): void => {
   test('Test metadata', (): void => {

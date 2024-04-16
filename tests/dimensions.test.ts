@@ -1,5 +1,5 @@
 import { describe, test, expect, expectTypeOf } from 'vitest';
-import { dimensions } from '../src/dimensions';
+import { dimensions } from '../src';
 import { BiomeTag } from '../src/types';
 
 describe('Test dimension datastructure', (): void => {

@@ -1,5 +1,5 @@
 import { describe, test, expect, expectTypeOf } from 'vitest';
-import { effects } from '../src/effects';
+import { effects } from '../src';
 
 describe('Test effect datastructure', (): void => {
   test('Test metadata', (): void => {

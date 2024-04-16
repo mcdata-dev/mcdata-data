@@ -1,5 +1,5 @@
 import { describe, test, expect } from 'vitest';
-import { versions } from '../src/versions';
+import { versions } from '../src';
 
 describe('Test version datastructure', (): void => {
   test('Test metadata', (): void => {

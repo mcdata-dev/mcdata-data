@@ -1,5 +1,5 @@
 import { describe, test, expect, expectTypeOf } from 'vitest';
-import { biomes } from '../src/biomes';
+import { biomes } from '../src';
 import { Dimension, Precipitation, StructureTag } from '../src/types';
 
 describe('Test biome datastructure', (): void => {
