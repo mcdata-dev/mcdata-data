@@ -1,40 +1,21 @@
-<h1 align="center">McData-Data</h1>
-<h3 align="center"><b>Soon to be used Minecraft data for the McData Discord bot.</b></h3>
-
-# Data
-| **Color** | **Meaning**         |
-|-----------|---------------------|
-| 🟢        | Up to date          |
-| 🟠        | Not up to date      |
-| 🟡        | Needs to be checked |
-
-| **File**   | **Description**                                                   | **Status** | **Note**          |
-|------------|-------------------------------------------------------------------|------------|-------------------|
-| Alphabet   | Characters from the Latin & Galactic (enchantment table) alphabet | 🟢         |                   |
-| Armor      | Minecraft armor, head, chest, leggings & boots                    | 🟡         |                   |
-| Biomes     | The Minecraft biomes                                              | 🟢         |                   |
-| Colors     | The 16 colors                                                     | 🟢         |                   |
-| Dimensions | The different dimensions                                          | 🟡         |                   |
-| Effects    | All Minecraft effects                                             | 🟠         | Last update: 1.18 |
-| Games      | Different Minecraft games                                         | 🟢         |                   |
-| Versions   | The non-pre-release versions                                      | 🟢         |                   |
-
-# Contributing
-Since this is a huge task, it's basically impossible to do this on my own. Every bit of help of keeping this data up to date is very much appricated. There are a few key points then contributing.
-- If you update an existing file, keep in mind to update:
-    - The `<file>.updated`
-    - When needed, update the status of the data in the table above.
-- If you create a new filel, keep in mind to:
-    - Update the `<file>.updated` with the date of the last check
-    - Add an entry to the table above (alphabetical order)
-
-The commit message I always use is as follows: "`Update - <file>` <message>". This isn't strictly needed, but it will be appricated since it keeps the commit messages nice :D
-
-# Links
-**Invite McData:** [Click here ↗](https://discord.com/api/oauth2/authorize?client_id=792824373894840361&permissions=274878203904&scope=bot%20applications.commands)
-
-**Discord Support Server:** [Click here ↗](https://go.fyxren.com/support)
-
----
-
-_Yep, that's it for now. This ReadMe will get updated in the future. 👍_
+<div align="center">
+  <br />
+  <h1>📦 McData Data</h1>
+  <br />
+	<p>
+		<a href="https://www.npmjs.com/package/@mcdata/data">
+      <img 
+        src="https://img.shields.io/npm/v/@mcdata/data" 
+        alt="npm version" 
+      />
+    </a>
+		<a href="https://www.npmjs.com/package/">
+      <img 
+        src="https://img.shields.io/npm/dt/@mcdata/data" 
+        alt="npm downloads" 
+      />
+    </a>
+		<a href="https://github.com/discordjs/discord.js/actions"><img src="https://github.com/discordjs/discord.js/actions/workflows/test.yml/badge.svg" alt="Tests status" /></a>
+		<a href="https://codecov.io/gh/discordjs/discord.js" ><img src="https://codecov.io/gh/discordjs/discord.js/branch/main/graph/badge.svg?precision=2" alt="Code coverage" /></a>
+	</p>
+</div>
