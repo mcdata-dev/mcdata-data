@@ -3,6 +3,7 @@ node_modules/
 
 # Production
 build/
+coverage/
 
 # Package Manager
 yarn.lock

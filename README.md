@@ -15,8 +15,11 @@
         alt="npm downloads" 
       />
     </a>
-		<a href="https://github.com/mcdata-dev/data/actions">
-      <img src="https://github.com/mcdata-dev/data/actions/workflows/test.yml/badge.svg" alt="Tests status" />
+		<a href="https://github.com/mcdata-dev/mcdata-data/actions">
+      <img 
+        src="https://github.com/mcdata-dev/mcdata-data/actions/workflows/tests.yml/badge.svg" 
+        alt="Tests status" 
+      />
     </a>
     <a href="https://codecov.io/gh/mcdata-dev/mcdata-data">
       <img src="https://codecov.io/gh/mcdata-dev/mcdata-data/graph/badge.svg?token=HMAP40BDEZ" />
