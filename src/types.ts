@@ -30,7 +30,7 @@ export interface Effect {
     short: string;
     long: string;
   };
-  type: string;
+  type: 'good' | 'bad';
   causes: {
     tag: string | null;
     description: null | string;
@@ -48,8 +48,8 @@ export interface Dimension {
   fixedTime: null;
   ultrawarm: boolean;
   altitude: {
-    totalHight: number;
-    logicalHight: number;
+    totalHeight: number;
+    logicalHeight: number;
     minY: number;
     maxY: number;
   };

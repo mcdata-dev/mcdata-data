@@ -35,7 +35,8 @@
     "esm": "gen-esm-wrapper ./src/index.js ./src/index.mjs",
     "postpublish": "run-s clean:node",
     "prepublishOnly": "run-s clean build:node",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "test": "vitest run"
   },
   "devDependencies": {
     "gen-esm-wrapper": "^1.1.3",

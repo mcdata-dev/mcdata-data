@@ -12,8 +12,8 @@
       "ultrawarm": false,
       "fixedTime": null,
       "altitude": {
-        "totalHight": 384,
-        "logicalHight": 384,
+        "totalHeight": 384,
+        "logicalHeight": 384,
         "minY": -64,
         "maxY": 320
       },
@@ -87,8 +87,8 @@
       "ultrawarm": false,
       "fixedTime": null,
       "altitude": {
-        "totalHight": 384,
-        "logicalHight": 384,
+        "totalHeight": 384,
+        "logicalHeight": 384,
         "minY": -64,
         "maxY": 320
       },
@@ -109,8 +109,8 @@
       "ultrawarm": true,
       "fixedTime": null,
       "altitude": {
-        "totalHight": 256,
-        "logicalHight": 128,
+        "totalHeight": 256,
+        "logicalHeight": 128,
         "minY": 0,
         "maxY": 256
       },
@@ -138,8 +138,8 @@
       "ultrawarm": false,
       "fixedTime": null,
       "altitude": {
-        "totalHight": 256,
-        "logicalHight": 256,
+        "totalHeight": 256,
+        "logicalHeight": 256,
         "minY": 0,
         "maxY": 256
       },
