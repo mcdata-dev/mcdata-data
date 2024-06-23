@@ -9,7 +9,7 @@
         alt="npm version" 
       />
     </a>
-		<a href="https://www.npmjs.com/package/">
+		<a href="https://www.npmjs.com/package/@mcdata/data">
       <img 
         src="https://img.shields.io/npm/dt/@mcdata/data" 
         alt="npm downloads" 
@@ -26,3 +26,17 @@
     </a>
 	</p>
 </div>
+
+## 📦 Installation
+
+```bash
+# With npm
+npm install @mcdata/data
+
+# With yarn
+yarn add @mcdata/data
+```
+
+## 📜 License
+
+This project is licensed under the Public General License (GPL-3.0) - see the [LICENSE](LICENSE) file for details.

@@ -1,6 +1,6 @@
 {
   "name": "@mcdata/data",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "Minecraft data used in the API/Discord client.",
   "main": "src/index.ts",
   "exports": {
