@@ -9,7 +9,7 @@
       "name": "Minecraft",
       "description": "A 3D sandbox game where players interact in a world made of blocks & entities, allowing for countless possibilities.",
       "officialRelease": "May 17, 2009",
-      "editions": ["Java Edition", "Bedrock Edition", "Education Edition", "China Edition"],
+      "editions": ["Java Edition", "Bedrock Edition", "Education Edition", "China Edition", "Classic Edition"],
       "status": "active"
     },
     {
@@ -32,9 +32,9 @@
       "tag": "minecraft_legends",
       "name": "Minecraft Legends",
       "description": "A real-time strategy game where the player has to defend the overworld from the piglins.",
-      "officialRelease": null,
+      "officialRelease": "April 18, 2023",
       "editions": [],
-      "status": "upcoming"
+      "status": "active"
     },
     {
       "tag": "minecraft_storymode",
