@@ -475,9 +475,50 @@
     {
       "version": "1.20",
       "major": "1.20",
-      "majorName": null,
-      "release": null,
-      "planned": "2023"
+      "majorName": "Trails & Tales",
+      "release": "June 7, 2023",
+    },
+    {
+      "version": "1.20.1",
+      "major": "1.20",
+      "majorName": "Trails & Tales",
+      "release": "June 12, 2023",
+    },
+    {
+      "version": "1.20.2",
+      "major": "1.20",
+      "majorName": "Trails & Tales",
+      "release": "September 21, 2023",
+    },
+    {
+      "version": "1.20.3",
+      "major": "1.20",
+      "majorName": "Trails & Tales",
+      "release": "December 5, 2023",
+    },
+    {
+      "version": "1.20.4",
+      "major": "1.20",
+      "majorName": "Trails & Tales",
+      "release": "December 7, 2023",
+    },
+    {
+      "version": "1.20.5",
+      "major": "1.20",
+      "majorName": "Trails & Tales",
+      "release": "April 23, 2024",
+    },
+    {
+      "version": "1.20.6",
+      "major": "1.20",
+      "majorName": "Trails & Tales",
+      "release": "April 29, 2024",
+    },
+    {
+      "version": "1.21",
+      "major": "1.21",
+      "majorName": "Tricky & Trials",
+      "release": "June 13, 2024",
     }
   ]
 }
