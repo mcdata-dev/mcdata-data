@@ -519,6 +519,13 @@
       "major": "1.21",
       "majorName": "Tricky & Trials",
       "release": "June 13, 2024",
-    }
+    },
+    {
+      "version": "1.21.1",
+      "major": "1.21",
+      "majorName": "Tricky & Trials",
+      "release": null,
+      "planned": "2024"
+    }    
   ]
 }
